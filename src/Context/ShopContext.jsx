@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
 import data_product from "../Components/Assets/data";
 
-export const ShopContext = createContext(null);
+export const ShopContext = createContext([]);
 
 const ShopContextProvider = (props) => {
   const contextValeu = { data_product };
